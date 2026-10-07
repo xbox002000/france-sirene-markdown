@@ -1,0 +1,37 @@
+{
+  "header": {
+    "statut": 200,
+    "message": "OK",
+    "total": 1,
+    "debut": 0,
+    "nombre": 1
+  },
+  "uniteLegale": {
+    "siren": "380129866",
+    "statutDiffusionUniteLegale": "O",
+    "dateCreationUniteLegale": "1991-01-01",
+    "sigleUniteLegale": null,
+    "categorieEntreprise": "GE",
+    "anneeCategorieEntreprise": "2022",
+    "periodesUniteLegale": [
+      {
+        "dateFin": null,
+        "dateDebut": "2023-01-01",
+        "etatAdministratifUniteLegale": "A",
+        "changementEtatAdministratifUniteLegale": false,
+        "denominationUniteLegale": "ORANGE",
+        "denominationUsuelle1UniteLegale": null,
+        "categorieJuridiqueUniteLegale": "5599",
+        "activitePrincipaleUniteLegale": "61.10Z",
+        "nomenclatureActivitePrincipaleUniteLegale": "NAFRev2",
+        "nicSiegeUniteLegale": "48625",
+        "economieSocialeSolidaireUniteLegale": "N",
+        "caractereEmployeurUniteLegale": "O",
+        "trancheEffectifsUniteLegale": "53",
+        "anneeEffectifsUniteLegale": "2022",
+        "nomUniteLegale": null,
+        "nomUsageUniteLegale": null
+      }
+    ]
+  }
+}

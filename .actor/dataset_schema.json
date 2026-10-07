@@ -1,0 +1,49 @@
+{
+  "actorSpecification": 1,
+  "fields": {},
+  "views": {
+    "overview": {
+      "title": "Overview",
+      "transformation": {
+        "fields": ["sirenFormatted", "siretFormatted", "denomination", "sigle", "etatLabel", "naf.code", "natureJuridique.code", "address.commune", "address.codePostal", "source", "status", "errorClass"],
+        "flatten": ["naf", "natureJuridique", "address"]
+      },
+      "display": {
+        "component": "table",
+        "properties": {
+          "sirenFormatted": { "label": "SIREN", "format": "text" },
+          "siretFormatted": { "label": "SIRET", "format": "text" },
+          "denomination": { "label": "Dénomination", "format": "text" },
+          "sigle": { "label": "Sigle", "format": "text" },
+          "etatLabel": { "label": "État", "format": "text" },
+          "naf.code": { "label": "NAF/APE", "format": "text" },
+          "natureJuridique.code": { "label": "Nature juridique", "format": "text" },
+          "address.commune": { "label": "Commune", "format": "text" },
+          "address.codePostal": { "label": "CP", "format": "text" },
+          "source": { "label": "Source", "format": "text" },
+          "status": { "label": "Result", "format": "text" },
+          "errorClass": { "label": "Error", "format": "text" }
+        }
+      }
+    },
+    "failed": {
+      "title": "Failed (not charged)",
+      "transformation": {
+        "fields": ["inputId", "siren", "siret", "errorClass", "httpStatus", "attempts", "errorMessage", "hint"]
+      },
+      "display": {
+        "component": "table",
+        "properties": {
+          "inputId": { "label": "Input", "format": "text" },
+          "siren": { "label": "SIREN", "format": "text" },
+          "siret": { "label": "SIRET", "format": "text" },
+          "errorClass": { "label": "Error", "format": "text" },
+          "httpStatus": { "label": "HTTP", "format": "number" },
+          "attempts": { "label": "Attempts", "format": "number" },
+          "errorMessage": { "label": "Message", "format": "text" },
+          "hint": { "label": "Hint", "format": "text" }
+        }
+      }
+    }
+  }
+}

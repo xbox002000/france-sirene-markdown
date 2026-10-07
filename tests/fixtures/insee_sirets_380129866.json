@@ -1,0 +1,80 @@
+{
+  "header": {
+    "statut": 200,
+    "message": "OK",
+    "total": 3,
+    "debut": 0,
+    "nombre": 3
+  },
+  "etablissements": [
+    {
+      "siret": "38012986648625",
+      "siren": "380129866",
+      "nic": "48625",
+      "statutDiffusionEtablissement": "O",
+      "dateCreationEtablissement": "2018-01-01",
+      "trancheEffectifsEtablissement": "42",
+      "anneeEffectifsEtablissement": "2022",
+      "etablissementSiege": true,
+      "adresseEtablissement": {
+        "numeroVoieEtablissement": "111",
+        "typeVoieEtablissement": "QUAI",
+        "libelleVoieEtablissement": "DU PRESIDENT ROOSEVELT",
+        "codePostalEtablissement": "92130",
+        "libelleCommuneEtablissement": "ISSY-LES-MOULINEAUX",
+        "codeCommuneEtablissement": "92040"
+      },
+      "periodesEtablissement": [
+        {
+          "dateFin": null,
+          "dateDebut": "2018-01-01",
+          "etatAdministratifEtablissement": "A",
+          "activitePrincipaleEtablissement": "61.10Z",
+          "nomenclatureActivitePrincipaleEtablissement": "NAFRev2",
+          "enseigne1Etablissement": null,
+          "denominationUsuelleEtablissement": null
+        }
+      ]
+    },
+    {
+      "siret": "38012986600011",
+      "siren": "380129866",
+      "nic": "00011",
+      "etablissementSiege": false,
+      "adresseEtablissement": {
+        "numeroVoieEtablissement": "1",
+        "typeVoieEtablissement": "PLACE",
+        "libelleVoieEtablissement": "DES ORANGES",
+        "codePostalEtablissement": "75015",
+        "libelleCommuneEtablissement": "PARIS"
+      },
+      "periodesEtablissement": [
+        {
+          "etatAdministratifEtablissement": "A",
+          "activitePrincipaleEtablissement": "61.10Z",
+          "dateDebut": "2000-01-01",
+          "dateFin": null
+        }
+      ]
+    },
+    {
+      "siret": "38012986699999",
+      "siren": "380129866",
+      "nic": "99999",
+      "etablissementSiege": false,
+      "adresseEtablissement": {
+        "libelleVoieEtablissement": "ANCIENNE RUE",
+        "codePostalEtablissement": "69001",
+        "libelleCommuneEtablissement": "LYON"
+      },
+      "periodesEtablissement": [
+        {
+          "etatAdministratifEtablissement": "F",
+          "activitePrincipaleEtablissement": "61.10Z",
+          "dateDebut": "1995-01-01",
+          "dateFin": "2010-01-01"
+        }
+      ]
+    }
+  ]
+}

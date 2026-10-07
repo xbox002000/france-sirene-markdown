@@ -1,0 +1,35 @@
+{
+  "header": {
+    "statut": 200,
+    "message": "OK"
+  },
+  "etablissement": {
+    "siret": "38012986648625",
+    "siren": "380129866",
+    "nic": "48625",
+    "statutDiffusionEtablissement": "O",
+    "dateCreationEtablissement": "2018-01-01",
+    "trancheEffectifsEtablissement": "42",
+    "anneeEffectifsEtablissement": "2022",
+    "etablissementSiege": true,
+    "adresseEtablissement": {
+      "numeroVoieEtablissement": "111",
+      "typeVoieEtablissement": "QUAI",
+      "libelleVoieEtablissement": "DU PRESIDENT ROOSEVELT",
+      "codePostalEtablissement": "92130",
+      "libelleCommuneEtablissement": "ISSY-LES-MOULINEAUX",
+      "codeCommuneEtablissement": "92040"
+    },
+    "periodesEtablissement": [
+      {
+        "dateFin": null,
+        "dateDebut": "2018-01-01",
+        "etatAdministratifEtablissement": "A",
+        "activitePrincipaleEtablissement": "61.10Z",
+        "nomenclatureActivitePrincipaleEtablissement": "NAFRev2",
+        "enseigne1Etablissement": null,
+        "denominationUsuelleEtablissement": null
+      }
+    ]
+  }
+}

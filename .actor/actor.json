@@ -1,0 +1,28 @@
+{
+  "actorSpecification": 1,
+  "name": "france-sirene-markdown",
+  "title": "France SIRENE → Company Markdown DD Card",
+  "description": "Batch French SIREN/SIRET lookups via Recherche Entreprises (keyless) or your own INSEE API Sirene key. Markdown due-diligence cards: denomination, status, NAF/APE, address, établissements summary, source. RAG chunks. No email/phone. Failed rows free. 256 MB.",
+  "version": "0.1",
+  "buildTag": "latest",
+  "minMemoryMbytes": 128,
+  "maxMemoryMbytes": 1024,
+  "defaultRunOptions": {
+    "build": "latest",
+    "memoryMbytes": 256,
+    "timeoutSecs": 3600
+  },
+  "input": "./input_schema.json",
+  "output": "./output_schema.json",
+  "storages": {
+    "dataset": "./dataset_schema.json"
+  },
+  "dockerfile": "../Dockerfile",
+  "readme": "../README.md",
+  "changelog": "../CHANGELOG.md",
+  "categories": [
+    "BUSINESS",
+    "DEVELOPER_TOOLS",
+    "AUTOMATION"
+  ]
+}

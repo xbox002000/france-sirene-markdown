@@ -1,0 +1,7 @@
+{
+  "sirens": ["380129866"],
+  "provider": "insee",
+  "includeEtablissements": false,
+  "includeRagChunks": false,
+  "maxRetries": 0
+}

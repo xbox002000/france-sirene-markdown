@@ -1,0 +1,31 @@
+{
+  "actorOutputSchemaVersion": 1,
+  "title": "France SIRENE Markdown output",
+  "description": "One dataset item per SIREN/SIRET, plus REPORT.md, SUMMARY, OUTPUT and optional CHUNKS.jsonl in the default key-value store. Never includes email or telephone.",
+  "properties": {
+    "results": {
+      "type": "string",
+      "title": "Company cards",
+      "description": "Dataset items: siren, siret, denomination, etatAdministratif, NAF/APE, address, établissements summary, markdown, source, errorClass.",
+      "template": "{{links.apiDefaultDatasetUrl}}/items?view=overview"
+    },
+    "reportMarkdown": {
+      "type": "string",
+      "title": "Markdown report (REPORT.md)",
+      "description": "Due-diligence cards: Identity, Status, NAF/APE, Address, Établissements, Source.",
+      "template": "{{links.apiDefaultKeyValueStoreUrl}}/records/REPORT.md"
+    },
+    "chunks": {
+      "type": "string",
+      "title": "RAG chunks (CHUNKS.jsonl)",
+      "description": "One JSON line per card section with siren / section / text, ready to embed.",
+      "template": "{{links.apiDefaultKeyValueStoreUrl}}/records/CHUNKS.jsonl"
+    },
+    "summary": {
+      "type": "string",
+      "title": "Run summary (SUMMARY)",
+      "description": "idsOk, idsFailed, byClass, bySource, charged, durationSecs, peakMemoryMb.",
+      "template": "{{links.apiDefaultKeyValueStoreUrl}}/records/SUMMARY"
+    }
+  }
+}

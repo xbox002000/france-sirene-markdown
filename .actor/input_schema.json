@@ -1,0 +1,120 @@
+{
+  "title": "France SIRENE → Markdown DD card input",
+  "description": "Paste French SIREN (9 digits) and/or SIRET (14 digits). Default provider: Recherche Entreprises (keyless official api.gouv.fr). Bring your own free INSEE API Sirene key for production volume / richer fields. Email and telephone are never output. Only successful cards are charged.",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "sirens": {
+      "title": "SIREN / SIRET list",
+      "type": "array",
+      "description": "One SIREN (9 digits) or SIRET (14 digits) per line, e.g. 380 129 866 or 38012986648625. Punctuation and spaces are stripped. Luhn check digits are validated (invalid rows are free). Duplicates dropped.",
+      "editor": "stringList",
+      "prefill": ["380129866"],
+      "sectionCaption": "Inputs"
+    },
+    "datasetId": {
+      "title": "Dataset ID (SIREN/SIRET list)",
+      "type": "string",
+      "description": "Optional. Read ids from another run's dataset (field from 'SIREN field', else siren / siret / taxId / numero).",
+      "editor": "textfield",
+      "sectionCaption": "Inputs"
+    },
+    "keyValueStoreId": {
+      "title": "Key-value store ID (SIREN/SIRET list)",
+      "type": "string",
+      "description": "Optional. Read ids from a key-value record: JSON array, {\"sirens\": [...]}, or plain text with one id per line.",
+      "editor": "textfield",
+      "sectionCaption": "Inputs"
+    },
+    "keyValueRecordKey": {
+      "title": "Key-value record key",
+      "type": "string",
+      "description": "Record key inside the key-value store.",
+      "editor": "textfield",
+      "default": "INPUT_SIRENS",
+      "sectionCaption": "Inputs"
+    },
+    "sirenField": {
+      "title": "SIREN/SIRET field (dataset / JSON objects)",
+      "type": "string",
+      "description": "Optional. Name of the field holding the SIREN or SIRET in dataset items or JSON objects.",
+      "editor": "textfield",
+      "sectionCaption": "Inputs"
+    },
+    "provider": {
+      "title": "Provider",
+      "type": "string",
+      "description": "auto = with apiKey try INSEE first then Recherche Entreprises; without key use Recherche only. recherche = keyless official search API only. insee = INSEE API Sirene only (requires apiKey).",
+      "editor": "select",
+      "enum": ["auto", "recherche", "insee"],
+      "enumTitles": ["Auto (INSEE if key, else Recherche)", "Recherche Entreprises only (keyless)", "INSEE API Sirene only (BYOK)"],
+      "default": "auto",
+      "sectionCaption": "Provider & key"
+    },
+    "apiKey": {
+      "title": "INSEE API key (optional BYOK)",
+      "type": "string",
+      "description": "Optional. Your INSEE API Sirene integration key from https://portail-api.insee.fr (sent as header X-INSEE-Api-Key-Integration). Not needed for the default Recherche Entreprises path. Stored encrypted, never logged or output. Placeholders like YOUR_KEY are ignored. The Actor publisher does not provide or top-up an INSEE key.",
+      "editor": "textfield",
+      "isSecret": true,
+      "sectionCaption": "Provider & key"
+    },
+    "stopOnAuthError": {
+      "title": "Stop using INSEE key after auth error",
+      "type": "boolean",
+      "description": "After INSEE returns 401/403 once, skip it for the remaining ids (auto mode keeps using Recherche Entreprises). Failed rows are free.",
+      "default": true,
+      "sectionCaption": "Provider & key"
+    },
+    "includeEtablissements": {
+      "title": "Include établissements summary",
+      "type": "boolean",
+      "description": "Add a short establishments summary: total/open counts, head-office SIRET, and a small sample. Never dumps thousands of establishments.",
+      "default": true,
+      "sectionCaption": "Output"
+    },
+    "includeRagChunks": {
+      "title": "Write RAG chunks (CHUNKS.jsonl)",
+      "type": "boolean",
+      "description": "Write one self-describing chunk per card section to the key-value store record CHUNKS.jsonl.",
+      "default": true,
+      "sectionCaption": "Output"
+    },
+    "maxItems": {
+      "title": "Max ids",
+      "type": "integer",
+      "description": "Stop after this many unique valid SIREN/SIRET (0 = no limit).",
+      "default": 100,
+      "minimum": 0,
+      "maximum": 100000,
+      "sectionCaption": "Limits"
+    },
+    "maxConcurrency": {
+      "title": "Max concurrency",
+      "type": "integer",
+      "description": "Parallel lookups. Public endpoints are rate-limited; 2 is a safe default.",
+      "default": 2,
+      "minimum": 1,
+      "maximum": 5,
+      "sectionCaption": "Limits"
+    },
+    "maxRetries": {
+      "title": "Max retries",
+      "type": "integer",
+      "description": "Retries per provider for HTTP 429 (honours Retry-After, capped at 30 s), 5xx, timeouts and network errors. 400/401/403/404 are not retried.",
+      "default": 3,
+      "minimum": 0,
+      "maximum": 6,
+      "sectionCaption": "Limits"
+    },
+    "requestTimeoutSecs": {
+      "title": "Request timeout (seconds)",
+      "type": "integer",
+      "description": "Timeout for each provider HTTP call.",
+      "default": 30,
+      "minimum": 5,
+      "maximum": 120,
+      "sectionCaption": "Limits"
+    }
+  }
+}

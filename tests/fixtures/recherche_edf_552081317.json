@@ -1,0 +1,317 @@
+{
+  "results": [
+    {
+      "siren": "552081317",
+      "siren_conserve": null,
+      "nom_complet": "ELECTRICITE DE FRANCE (EDF)",
+      "nom_raison_sociale": "ELECTRICITE DE FRANCE",
+      "sigle": "EDF",
+      "nombre_etablissements": 9158,
+      "nombre_etablissements_ouverts": 3551,
+      "siege": {
+        "activite_principale": "35.11Z",
+        "activite_principale_naf25": "35.11Y",
+        "activite_principale_registre_metier": null,
+        "annee_tranche_effectif_salarie": "2024",
+        "adresse": "22-30 22 AVENUE DE WAGRAM 75008 PARIS",
+        "caractere_employeur": "O",
+        "cedex": null,
+        "code_pays_etranger": null,
+        "code_postal": "75008",
+        "commune": "75108",
+        "complement_adresse": "22-30",
+        "coordonnees": "48.876235098,2.2979350788",
+        "date_creation": "2006-08-01",
+        "date_debut_activite": "2008-01-01",
+        "date_fermeture": null,
+        "date_mise_a_jour": null,
+        "date_mise_a_jour_insee": "2025-12-05T15:13:24",
+        "departement": "75",
+        "distribution_speciale": null,
+        "epci": "200054781",
+        "est_siege": true,
+        "etat_administratif": "A",
+        "geo_adresse": null,
+        "geo_id": null,
+        "indice_repetition": null,
+        "latitude": "48.876235098",
+        "libelle_cedex": null,
+        "libelle_commune": "PARIS",
+        "libelle_commune_etranger": null,
+        "libelle_pays_etranger": null,
+        "libelle_voie": "DE WAGRAM",
+        "liste_enseignes": null,
+        "liste_finess": [
+          "750073223"
+        ],
+        "liste_id_bio": null,
+        "liste_idcc": [
+          "9999",
+          "5001"
+        ],
+        "liste_id_organisme_formation": null,
+        "liste_rge": [
+          "C001D117",
+          "CP032"
+        ],
+        "liste_uai": null,
+        "longitude": "2.2979350788",
+        "nom_commercial": null,
+        "numero_voie": "22",
+        "dernier_numero_voie": null,
+        "region": "11",
+        "siret": "55208131766522",
+        "statut_diffusion_etablissement": "O",
+        "tranche_effectif_salarie": "32",
+        "type_voie": "AVENUE"
+      },
+      "activite_principale": "35.11Z",
+      "activite_principale_naf25": "35.11Y",
+      "categorie_entreprise": "GE",
+      "caractere_employeur": null,
+      "annee_categorie_entreprise": "2024",
+      "date_creation": "1955-01-01",
+      "date_fermeture": null,
+      "date_mise_a_jour": "2026-10-04T11:39:54",
+      "date_mise_a_jour_insee": "2026-10-02T18:33:28.450",
+      "date_mise_a_jour_rne": "2026-02-27T11:58:00",
+      "dirigeants": [
+        {
+          "nom": "PEDINI (BACONNET)",
+          "prenoms": "CLAIRE",
+          "annee_de_naissance": "1965",
+          "date_de_naissance": "1965-06",
+          "qualite": "Administrateur",
+          "nationalite": null,
+          "type_dirigeant": "personne physique"
+        },
+        {
+          "nom": "BEGUINET",
+          "prenoms": "CHRISTOPHE",
+          "annee_de_naissance": "1965",
+          "date_de_naissance": "1965-07",
+          "qualite": "Administrateurs représentant les salariés",
+          "nationalite": null,
+          "type_dirigeant": "personne physique"
+        },
+        {
+          "nom": "BROS",
+          "prenoms": "VALÉRIE",
+          "annee_de_naissance": "1970",
+          "date_de_naissance": "1970-09",
+          "qualite": "Administrateur",
+          "nationalite": null,
+          "type_dirigeant": "personne physique"
+        },
+        {
+          "nom": "CHABANEL",
+          "prenoms": "MATTHIEU",
+          "annee_de_naissance": "1976",
+          "date_de_naissance": "1976-05",
+          "qualite": "Administrateur",
+          "nationalite": null,
+          "type_dirigeant": "personne physique"
+        },
+        {
+          "nom": "DENOYEL",
+          "prenoms": "GILLES",
+          "annee_de_naissance": "1954",
+          "date_de_naissance": "1954-08",
+          "qualite": "Administrateur",
+          "nationalite": null,
+          "type_dirigeant": "personne physique"
+        },
+        {
+          "nom": "DESCÔTES",
+          "prenoms": "ANNE-MARIE",
+          "annee_de_naissance": "1959",
+          "date_de_naissance": "1959-12",
+          "qualite": "Administrateur",
+          "nationalite": null,
+          "type_dirigeant": "personne physique"
+        },
+        {
+          "nom": "EVEN",
+          "prenoms": "BRUNO",
+          "annee_de_naissance": "1968",
+          "date_de_naissance": "1968-03",
+          "qualite": "Administrateur",
+          "nationalite": null,
+          "type_dirigeant": "personne physique"
+        },
+        {
+          "nom": "FONTANA",
+          "prenoms": "BERNARD",
+          "annee_de_naissance": "1961",
+          "date_de_naissance": "1961-03",
+          "qualite": "Président du conseil d’administration et directeur général",
+          "nationalite": null,
+          "type_dirigeant": "personne physique"
+        },
+        {
+          "nom": "FRIONNET",
+          "prenoms": "AURELIE",
+          "annee_de_naissance": "1977",
+          "date_de_naissance": "1977-11",
+          "qualite": "Administrateurs représentant les salariés",
+          "nationalite": null,
+          "type_dirigeant": "personne physique"
+        },
+        {
+          "nom": "STEPHANN (GENY)",
+          "prenoms": "DELPHINE",
+          "annee_de_naissance": "1968",
+          "date_de_naissance": "1968-11",
+          "qualite": "Administrateur",
+          "nationalite": null,
+          "type_dirigeant": "personne physique"
+        },
+        {
+          "nom": "GUYON",
+          "prenoms": "FABRICE",
+          "annee_de_naissance": "1974",
+          "date_de_naissance": "1974-01",
+          "qualite": "Administrateurs représentant les salariés",
+          "nationalite": null,
+          "type_dirigeant": "personne physique"
+        },
+        {
+          "nom": "LACOSTE",
+          "prenoms": "GERALD",
+          "annee_de_naissance": "1976",
+          "date_de_naissance": "1976-12",
+          "qualite": "Administrateurs représentant les salariés",
+          "nationalite": null,
+          "type_dirigeant": "personne physique"
+        },
+        {
+          "nom": "LAGNEAU",
+          "prenoms": "CATHERINE",
+          "annee_de_naissance": "1982",
+          "date_de_naissance": "1982-05",
+          "qualite": "Administrateur",
+          "nationalite": null,
+          "type_dirigeant": "personne physique"
+        },
+        {
+          "nom": "LHENRY",
+          "prenoms": "SANDRINE",
+          "annee_de_naissance": "1974",
+          "date_de_naissance": "1974-09",
+          "qualite": "Administrateurs représentant les salariés",
+          "nationalite": null,
+          "type_dirigeant": "personne physique"
+        },
+        {
+          "nom": "PETITCOLIN",
+          "prenoms": "PHILIPPE",
+          "annee_de_naissance": "1952",
+          "date_de_naissance": "1952-09",
+          "qualite": "Administrateur",
+          "nationalite": null,
+          "type_dirigeant": "personne physique"
+        },
+        {
+          "nom": "PICHOT",
+          "prenoms": "CECILE",
+          "annee_de_naissance": "1974",
+          "date_de_naissance": "1974-05",
+          "qualite": "Administrateurs représentant les salariés",
+          "nationalite": null,
+          "type_dirigeant": "personne physique"
+        },
+        {
+          "nom": "COLLIN (RIBES)",
+          "prenoms": "NATHALIE",
+          "annee_de_naissance": "1964",
+          "date_de_naissance": "1964-09",
+          "qualite": "Administrateur",
+          "nationalite": null,
+          "type_dirigeant": "personne physique"
+        },
+        {
+          "nom": "ZAJDENWEBER",
+          "prenoms": "ALEXIS",
+          "annee_de_naissance": "1976",
+          "date_de_naissance": "1976-05",
+          "qualite": "Autre",
+          "nationalite": null,
+          "type_dirigeant": "personne physique"
+        },
+        {
+          "siren": "672006483",
+          "denomination": "PRICEWATERHOUSECOOPERS AUDIT",
+          "qualite": "Commissaire aux comptes titulaire",
+          "type_dirigeant": "personne morale"
+        },
+        {
+          "siren": "775726417",
+          "denomination": "KPMG SA",
+          "qualite": "Commissaire aux comptes titulaire",
+          "type_dirigeant": "personne morale"
+        }
+      ],
+      "etat_administratif": "A",
+      "nature_juridique": "5599",
+      "section_activite_principale": "D",
+      "tranche_effectif_salarie": "53",
+      "annee_tranche_effectif_salarie": "2024",
+      "statut_diffusion": "O",
+      "matching_etablissements": [],
+      "finances": {
+        "2024": {
+          "ca": 118690000000,
+          "resultat_net": 11854000000
+        }
+      },
+      "complements": {
+        "collectivite_territoriale": null,
+        "convention_collective_renseignee": true,
+        "liste_idcc": [
+          "5001",
+          "9999"
+        ],
+        "liste_finess_juridique": [
+          "750073215"
+        ],
+        "numero_rnf": null,
+        "egapro_renseignee": true,
+        "est_achats_responsables": true,
+        "est_alim_confiance": true,
+        "est_association": false,
+        "est_avocat": false,
+        "est_bio": false,
+        "est_entrepreneur_individuel": false,
+        "est_entrepreneur_spectacle": false,
+        "est_ess": false,
+        "est_finess": true,
+        "est_organisme_formation": true,
+        "est_qualiopi": true,
+        "liste_id_organisme_formation": [
+          "11755589375"
+        ],
+        "est_rge": true,
+        "est_siae": false,
+        "est_societe_mission": false,
+        "est_uai": false,
+        "est_patrimoine_vivant": false,
+        "bilan_ges_renseigne": true,
+        "identifiant_association": null,
+        "statut_entrepreneur_spectacle": null,
+        "type_siae": null,
+        "a_aide_minimis": true,
+        "a_aide_ademe": true,
+        "est_administration": false,
+        "est_service_public": null,
+        "est_l100_3": null
+      },
+      "tva": [
+        "FR03552081317"
+      ]
+    }
+  ],
+  "total_results": 1,
+  "page": 1,
+  "per_page": 1,
+  "total_pages": 1
+}

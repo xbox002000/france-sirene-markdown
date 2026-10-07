@@ -1,0 +1,288 @@
+{
+  "results": [
+    {
+      "siren": "775670417",
+      "siren_conserve": null,
+      "nom_complet": "LVMH MOET HENNESSY LOUIS VUITTON",
+      "nom_raison_sociale": "LVMH MOET HENNESSY LOUIS VUITTON",
+      "sigle": null,
+      "nombre_etablissements": 2,
+      "nombre_etablissements_ouverts": 1,
+      "siege": {
+        "activite_principale": "70.10Z",
+        "activite_principale_naf25": "70.10Y",
+        "activite_principale_registre_metier": null,
+        "annee_tranche_effectif_salarie": "2024",
+        "adresse": "22 AVENUE MONTAIGNE 75008 PARIS",
+        "caractere_employeur": "O",
+        "cedex": null,
+        "code_pays_etranger": null,
+        "code_postal": "75008",
+        "commune": "75108",
+        "complement_adresse": null,
+        "coordonnees": "48.866384832,2.3056095709",
+        "date_creation": "2002-11-25",
+        "date_debut_activite": "2018-08-17",
+        "date_fermeture": null,
+        "date_mise_a_jour": null,
+        "date_mise_a_jour_insee": "2025-12-05T15:20:22",
+        "departement": "75",
+        "distribution_speciale": null,
+        "epci": "200054781",
+        "est_siege": true,
+        "etat_administratif": "A",
+        "geo_adresse": null,
+        "geo_id": null,
+        "indice_repetition": null,
+        "latitude": "48.866384832",
+        "libelle_cedex": null,
+        "libelle_commune": "PARIS",
+        "libelle_commune_etranger": null,
+        "libelle_pays_etranger": null,
+        "libelle_voie": "MONTAIGNE",
+        "liste_enseignes": null,
+        "liste_finess": null,
+        "liste_id_bio": null,
+        "liste_idcc": [
+          "0493"
+        ],
+        "liste_id_organisme_formation": null,
+        "liste_rge": null,
+        "liste_uai": null,
+        "longitude": "2.3056095709",
+        "nom_commercial": null,
+        "numero_voie": "22",
+        "dernier_numero_voie": null,
+        "region": "11",
+        "siret": "77567041700051",
+        "statut_diffusion_etablissement": "O",
+        "tranche_effectif_salarie": "12",
+        "type_voie": "AVENUE"
+      },
+      "activite_principale": "70.10Z",
+      "activite_principale_naf25": "70.10Y",
+      "categorie_entreprise": "GE",
+      "caractere_employeur": null,
+      "annee_categorie_entreprise": "2024",
+      "date_creation": "1971-01-01",
+      "date_fermeture": null,
+      "date_mise_a_jour": "2026-10-04T09:59:54",
+      "date_mise_a_jour_insee": "2025-12-06T05:13:14",
+      "date_mise_a_jour_rne": "2026-09-24T19:42:35",
+      "dirigeants": [
+        {
+          "nom": "ARNAULT",
+          "prenoms": "ALEXANDRE BERNARD FRANCOIS JEAN",
+          "annee_de_naissance": "1992",
+          "date_de_naissance": "1992-05",
+          "qualite": "Administrateur",
+          "nationalite": null,
+          "type_dirigeant": "personne physique"
+        },
+        {
+          "nom": "ARNAULT",
+          "prenoms": "ANTOINE",
+          "annee_de_naissance": "1977",
+          "date_de_naissance": "1977-06",
+          "qualite": "Administrateur",
+          "nationalite": null,
+          "type_dirigeant": "personne physique"
+        },
+        {
+          "nom": "ARNAULT",
+          "prenoms": "BERNARD",
+          "annee_de_naissance": "1949",
+          "date_de_naissance": "1949-03",
+          "qualite": "Autre",
+          "nationalite": null,
+          "type_dirigeant": "personne physique"
+        },
+        {
+          "nom": "ARNAULT",
+          "prenoms": "DELPHINE",
+          "annee_de_naissance": "1975",
+          "date_de_naissance": "1975-04",
+          "qualite": "Administrateur",
+          "nationalite": null,
+          "type_dirigeant": "personne physique"
+        },
+        {
+          "nom": "ARNAULT",
+          "prenoms": "FREDERIC BERNARD JEAN ETIENNE",
+          "annee_de_naissance": "1994",
+          "date_de_naissance": "1994-11",
+          "qualite": "Administrateur",
+          "nationalite": null,
+          "type_dirigeant": "personne physique"
+        },
+        {
+          "nom": "AUMONT",
+          "prenoms": "DOMINIQUE",
+          "annee_de_naissance": "1957",
+          "date_de_naissance": "1957-06",
+          "qualite": "Autre",
+          "nationalite": null,
+          "type_dirigeant": "personne physique"
+        },
+        {
+          "nom": "CHASSAT",
+          "prenoms": "SOPHIE",
+          "annee_de_naissance": "1978",
+          "date_de_naissance": "1978-10",
+          "qualite": "Administrateur",
+          "nationalite": null,
+          "type_dirigeant": "personne physique"
+        },
+        {
+          "nom": "CHRISTIANSON",
+          "prenoms": "WEI SUN",
+          "annee_de_naissance": "1956",
+          "date_de_naissance": "1956-08",
+          "qualite": "Administrateur",
+          "nationalite": null,
+          "type_dirigeant": "personne physique"
+        },
+        {
+          "nom": "DE LA CROIX DE CASTRIES",
+          "prenoms": "HENRI RENE MARIE AUGUSTIN",
+          "annee_de_naissance": "1954",
+          "date_de_naissance": "1954-08",
+          "qualite": "Administrateur",
+          "nationalite": null,
+          "type_dirigeant": "personne physique"
+        },
+        {
+          "nom": "KRAVIS (DROUIN)",
+          "prenoms": "MARIE-JOSEE",
+          "annee_de_naissance": "1949",
+          "date_de_naissance": "1949-09",
+          "qualite": "Administrateur",
+          "nationalite": null,
+          "type_dirigeant": "personne physique"
+        },
+        {
+          "nom": "GORIN",
+          "prenoms": "ARIANE VICTORIA",
+          "annee_de_naissance": "1974",
+          "date_de_naissance": "1974-06",
+          "qualite": "Administrateur",
+          "nationalite": null,
+          "type_dirigeant": "personne physique"
+        },
+        {
+          "nom": "GAYMARD (LEJEUNE)",
+          "prenoms": "CLARA",
+          "annee_de_naissance": "1960",
+          "date_de_naissance": "1960-01",
+          "qualite": "Administrateur",
+          "nationalite": null,
+          "type_dirigeant": "personne physique"
+        },
+        {
+          "nom": "MIGNON",
+          "prenoms": "LAURENT JACQUES YVES",
+          "annee_de_naissance": "1963",
+          "date_de_naissance": "1963-12",
+          "qualite": "Administrateur",
+          "nationalite": null,
+          "type_dirigeant": "personne physique"
+        },
+        {
+          "nom": "ZUNE (PIGOT)",
+          "prenoms": "LYDIA MARIE-NOËLLE",
+          "annee_de_naissance": "1966",
+          "date_de_naissance": "1966-03",
+          "qualite": "Administrateurs représentant les salariés",
+          "nationalite": null,
+          "type_dirigeant": "personne physique"
+        },
+        {
+          "nom": "VALLA",
+          "prenoms": "NATACHA",
+          "annee_de_naissance": "1976",
+          "date_de_naissance": "1976-01",
+          "qualite": "Administrateur",
+          "nationalite": null,
+          "type_dirigeant": "personne physique"
+        },
+        {
+          "nom": "VEDRINE",
+          "prenoms": "HUBERT",
+          "annee_de_naissance": "1947",
+          "date_de_naissance": "1947-07",
+          "qualite": "Administrateur",
+          "nationalite": null,
+          "type_dirigeant": "personne physique"
+        },
+        {
+          "siren": "572028041",
+          "denomination": "DELOITTE & ASSOCIES",
+          "qualite": "Commissaire aux comptes titulaire",
+          "type_dirigeant": "personne morale"
+        },
+        {
+          "siren": "784824153",
+          "denomination": "FORVIS MAZARS SA",
+          "qualite": "Commissaire aux comptes titulaire",
+          "type_dirigeant": "personne morale"
+        }
+      ],
+      "etat_administratif": "A",
+      "nature_juridique": "5800",
+      "section_activite_principale": "M",
+      "tranche_effectif_salarie": "12",
+      "annee_tranche_effectif_salarie": "2024",
+      "statut_diffusion": "O",
+      "matching_etablissements": [],
+      "finances": {
+        "2025": {
+          "ca": 80807000000,
+          "resultat_net": 11222000000
+        }
+      },
+      "complements": {
+        "collectivite_territoriale": null,
+        "convention_collective_renseignee": true,
+        "liste_idcc": [
+          "0493"
+        ],
+        "liste_finess_juridique": null,
+        "numero_rnf": null,
+        "egapro_renseignee": false,
+        "est_achats_responsables": false,
+        "est_alim_confiance": false,
+        "est_association": false,
+        "est_avocat": false,
+        "est_bio": false,
+        "est_entrepreneur_individuel": false,
+        "est_entrepreneur_spectacle": false,
+        "est_ess": false,
+        "est_finess": false,
+        "est_organisme_formation": false,
+        "est_qualiopi": false,
+        "liste_id_organisme_formation": null,
+        "est_rge": false,
+        "est_siae": false,
+        "est_societe_mission": false,
+        "est_uai": false,
+        "est_patrimoine_vivant": false,
+        "bilan_ges_renseigne": false,
+        "identifiant_association": null,
+        "statut_entrepreneur_spectacle": null,
+        "type_siae": null,
+        "a_aide_minimis": false,
+        "a_aide_ademe": false,
+        "est_administration": false,
+        "est_service_public": null,
+        "est_l100_3": null
+      },
+      "tva": [
+        "FR81775670417"
+      ]
+    }
+  ],
+  "total_results": 1,
+  "page": 1,
+  "per_page": 1,
+  "total_pages": 1
+}

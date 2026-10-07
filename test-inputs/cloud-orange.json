@@ -1,0 +1,8 @@
+{
+  "sirens": ["380129866"],
+  "provider": "auto",
+  "includeEtablissements": true,
+  "includeRagChunks": true,
+  "maxConcurrency": 1,
+  "maxRetries": 3
+}

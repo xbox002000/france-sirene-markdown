@@ -1,0 +1,7 @@
+{
+  "sirens": ["380129866", "552081317", "123", "000000000"],
+  "provider": "recherche",
+  "includeEtablissements": true,
+  "includeRagChunks": true,
+  "maxConcurrency": 2
+}

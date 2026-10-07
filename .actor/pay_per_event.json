@@ -1,0 +1,13 @@
+{
+    "apify-actor-start": {
+        "eventTitle": "Actor start",
+        "eventDescription": "Charged once per run (Apify synthetic start event; priced per GB of run memory, 1 GB minimum). Target ~$0.001 for a typical 256 MB–1 GB start.",
+        "eventPriceUsd": 0.001
+    },
+    "sirene-card": {
+        "eventTitle": "SIRENE company card",
+        "eventDescription": "Charged once per SUCCESSFUL French company card (SIREN/SIRET fetched and normalized: denomination, status, NAF/APE, address, établissements summary, Markdown card and optional RAG chunks). Invalid ids, not found, rate-limited after retries, auth errors and provider failures are free.",
+        "eventPriceUsd": 0.004,
+        "isPrimaryEvent": true
+    }
+}

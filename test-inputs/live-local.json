@@ -1,0 +1,8 @@
+{
+  "sirens": ["380129866", "bad-id", "000000001"],
+  "provider": "recherche",
+  "includeEtablissements": true,
+  "includeRagChunks": true,
+  "maxConcurrency": 1,
+  "maxRetries": 2
+}
